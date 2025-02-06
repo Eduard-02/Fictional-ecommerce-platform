@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Gandalf.Backend.Models.Product>
+
+@{
+    ViewData["Title"] = $"Products in {ViewBag.Category}";
+}
+
+<h1>Products in @ViewBag.Category</h1>
+
+@if (!Model.Any())
+{
+    <p>No products found in this category.</p>
+}
+else
+{
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Name</h5>
+                        <img src="@product.Image" alt="@product.Name" class="img-fluid w-100"
+                             style="height: 200px; object-fit: contain; background-color: white; padding: 10px;" />
+                        <p class="card-text">@product.Description</p>
+                        <p class="card-text"><strong>Price:</strong> $@product.Price</p>
+                        <p>
+                            <button type="button" class="btn btn-primary">
+                                <b> Add to Cart </b>
+                            </button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

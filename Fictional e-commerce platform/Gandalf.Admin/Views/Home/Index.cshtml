@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<h2>Admin Panel</h2>
+<p>Manage store categories and products below:</p>
+
+<ul>
+    <li><a asp-controller="Categories" asp-action="Index" class="btn btn-primary">Manage Categories</a></li>
+    <li><a asp-controller="Products" asp-action="Index" class="btn btn-secondary">Manage Products</a></li>
+</ul>

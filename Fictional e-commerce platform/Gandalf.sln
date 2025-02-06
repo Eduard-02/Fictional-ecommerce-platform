@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gandalf.Admin", "Gandalf.Admin\Gandalf.Admin.csproj", "{18E72027-E2E9-4556-BC60-70250A4D7710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gandalf.Frontend", "Gandalf.Frontend\Gandalf.Frontend.csproj", "{9050D6F8-08D1-4A14-87A4-47DE270B0FDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gandalf.Backend", "Gandalf.Backend\Gandalf.Backend.csproj", "{549058B4-E364-4E39-90C2-6865E5B08735}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18E72027-E2E9-4556-BC60-70250A4D7710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E72027-E2E9-4556-BC60-70250A4D7710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E72027-E2E9-4556-BC60-70250A4D7710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E72027-E2E9-4556-BC60-70250A4D7710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9050D6F8-08D1-4A14-87A4-47DE270B0FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9050D6F8-08D1-4A14-87A4-47DE270B0FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9050D6F8-08D1-4A14-87A4-47DE270B0FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9050D6F8-08D1-4A14-87A4-47DE270B0FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{549058B4-E364-4E39-90C2-6865E5B08735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549058B4-E364-4E39-90C2-6865E5B08735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549058B4-E364-4E39-90C2-6865E5B08735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549058B4-E364-4E39-90C2-6865E5B08735}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

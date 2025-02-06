@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "Run all",
+    "Projects": [
+      {
+        "Path": "Gandalf.Backend\\Gandalf.Backend.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Gandalf.Admin\\Gandalf.Admin.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Gandalf.Frontend\\Gandalf.Frontend.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
