@@ -30,5 +30,5 @@ The app uses LocalDB, which is installed by default with Visual Studio. No exter
 **Contact**
 
 I’m open to feedback and work opportunities. Feel free to reach out:
-	•	GitHub: Eduard-02
-	•	LinkedIn: Eduardo Major Cebola
+- GitHub: Eduard-02
+- LinkedIn: Eduardo Major Cebola
