@@ -1,5 +1,5 @@
 # Fictional E-Commerce Platform
-A conceptual e-commerce application designed to demonstrate foundational web development skills and architectural understanding.
+A conceptual e-commerce application that I had to build as my Final Project for the Full Stack Development Academy in Rumos.
 
 **Project Overview**
 
